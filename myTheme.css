@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Digital7;
+  src: url(digital-7.ttf);
+}
+body {
+  background-color: black;
+  margin: auto;
+}
+div {
+}
+#center {
+  text-align: center;
+  color: #f9c114;
+  font-family: Digital7;
+}
+#hora {
+  font-size: 11.5vw;
+}
+
+#divContenedor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
